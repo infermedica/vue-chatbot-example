@@ -1,0 +1,30 @@
+html,
+body{
+  padding: 0px;
+  margin: 0px;
+  background: #eee;
+  scroll-behavior: smooth;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+  grid-gap: 15px;
+  padding: 30px;
+  padding-bottom: 104px;
+  box-sizing: border-box;
+  background: #F7FBFF;
+  width: 408px;
+  margin: auto;
+  min-height: 100vh;
+  overflow: auto;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 62px;
+}
+
+* {
+  color: inherit;
+}

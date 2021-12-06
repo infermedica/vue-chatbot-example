@@ -1,0 +1,47 @@
+/*
+  wearables and x-small < 360px
+  xs -> 390px
+  sm -> 600px
+  md -> 960px
+  lg -> 1264px
+  xl -> 1904px
+*/
+
+$screen-xs: 24.375em;
+$screen-sm: 37.5em;
+$screen-md: 60em;
+$screen-lg: 79em;
+$screen-xl: 119em;
+
+@mixin xs {
+  @media (min-width: #{$screen-xs}) {
+    @content;
+  }
+}
+@mixin sm {
+  @media (min-width: #{$screen-sm}) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: #{$screen-md}) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: #{$screen-lg}) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: #{$screen-xl}) {
+    @content;
+  }
+}
+
+// Custom size. In em.
+@mixin rwd($screen) {
+  @media (min-width: $screen+'em') {
+    @content;
+  }
+}

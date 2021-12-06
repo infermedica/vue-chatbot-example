@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+
+  padding: 0 12px;
+
+  @include sm {
+    width: 56.25rem;
+  }
+
+  @include md {
+    max-width: 74.063rem;
+  }
+
+  @include lg {
+    max-width: 111.563rem;
+  }
+}
