@@ -38,7 +38,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from "vue-demi";
+import { ref, onMounted, computed } from "vue";
 import useApiStore from "@/stores/api.store";
 import { useFlowStore } from "@/stores/flow.store";
 
